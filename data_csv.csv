@@ -1,0 +1,4 @@
+downloadMbps,endLatitude,endLongitude,ipAddress,ispName,jitter,latency,placeName,placeType,postalCode,regionName,serverName,startLatitude,startLongitude,subregion,uploadMbps
+17.381,42.347999572753906,-71.1050033569336,155.41.41.136,Boston University,0.30000001192092896,3,Boston,locality,02215,Massachusetts,"Boston, MA",42.347999572753906,-71.1050033569336,Suffolk County,52.835
+17.381,42.347999572753906,-71.1050033569336,155.41.41.136,Boston University,0.30000001192092896,3,Boston,locality,02215,Massachusetts,"Boston, MA",42.347999572753906,-71.1050033569336,Suffolk County,52.835
+19.596,42.347999572753906,-71.1050033569336,155.41.41.136,Boston University,1,2,Boston,locality,02215,Massachusetts,"Boston, MA",42.347999572753906,-71.1050033569336,Suffolk County,54.182

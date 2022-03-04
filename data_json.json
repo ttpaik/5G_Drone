@@ -1,0 +1,58 @@
+{
+  "users" : {
+    "1645505582797" : {
+      "downloadMbps" : 17.381,
+      "endLatitude" : 42.347999572753906,
+      "endLongitude" : -71.1050033569336,
+      "ipAddress" : "155.41.41.136",
+      "ispName" : "Boston University",
+      "jitter" : 0.30000001192092896,
+      "latency" : 3,
+      "placeName" : "Boston",
+      "placeType" : "locality",
+      "postalCode" : "02215",
+      "regionName" : "Massachusetts",
+      "serverName" : "Boston, MA",
+      "startLatitude" : 42.347999572753906,
+      "startLongitude" : -71.1050033569336,
+      "subregion" : "Suffolk County",
+      "uploadMbps" : 52.835
+    },
+    "1645506126577" : {
+      "downloadMbps" : 17.381,
+      "endLatitude" : 42.347999572753906,
+      "endLongitude" : -71.1050033569336,
+      "ipAddress" : "155.41.41.136",
+      "ispName" : "Boston University",
+      "jitter" : 0.30000001192092896,
+      "latency" : 3,
+      "placeName" : "Boston",
+      "placeType" : "locality",
+      "postalCode" : "02215",
+      "regionName" : "Massachusetts",
+      "serverName" : "Boston, MA",
+      "startLatitude" : 42.347999572753906,
+      "startLongitude" : -71.1050033569336,
+      "subregion" : "Suffolk County",
+      "uploadMbps" : 52.835
+    },
+    "1645506959365" : {
+      "downloadMbps" : 19.596,
+      "endLatitude" : 42.347999572753906,
+      "endLongitude" : -71.1050033569336,
+      "ipAddress" : "155.41.41.136",
+      "ispName" : "Boston University",
+      "jitter" : 1,
+      "latency" : 2,
+      "placeName" : "Boston",
+      "placeType" : "locality",
+      "postalCode" : "02215",
+      "regionName" : "Massachusetts",
+      "serverName" : "Boston, MA",
+      "startLatitude" : 42.347999572753906,
+      "startLongitude" : -71.1050033569336,
+      "subregion" : "Suffolk County",
+      "uploadMbps" : 54.182
+    }
+  }
+}
