@@ -51,8 +51,9 @@ y = df[['Download Speed', 'Upload Speed']]
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 100)
 
 #Fitting and Regression Model
-mlr = KNeighborsRegressor()
+mlr = KNeighborsRegressor(n_neighbors = 4, p=2)
 mlr.fit(x_train, y_train)
+print(mlr.get_params())
 
 #Intercept and Coefficient
 # print("Intercept: ", mlr.intercept_)
