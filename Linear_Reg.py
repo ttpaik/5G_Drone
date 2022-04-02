@@ -23,7 +23,7 @@ mlr.fit(x_train, y_train)
 y_pred_mlr= mlr.predict(x_test)
 print("------------------")
 for i in range(y_test.shape[0]):
-    print("Prediction {} -----".format(i))
+    print("----- Prediction {}".format(i))
     print(" Predicted Download Speed: {0:.2f}, Actual Download Speed: {1:.2f}".format(y_pred_mlr[i][0], y_test.iat[i,0]))
     print(" Predicted Upload Speed: {0:.2f}, Actual Upload Speed: {1:.2f}".format(y_pred_mlr[i][1], y_test.iat[i,1]))
 print("------------------")
