@@ -7,9 +7,6 @@
 Tinker CSS Template
 https://templatemo.com/tm-506-tinker
 -->
-        <style>
-            h1 {text-align: center;}
-        </style>
         <title>Aerial 5G Network Modeling</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,10 +24,7 @@ https://templatemo.com/tm-506-tinker
         <link rel="stylesheet" href="{{ url_for('static',filename='css/templatemo-style.css') }}">
         <link rel="stylesheet" href="{{ url_for('static',filename='css/lightbox.css') }}">
         <link rel="shortcut icon" href="#">
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
-        <link rel="shortcut icon" href="#">
         <script src="{{ url_for('static',filename='js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     </head>
 
 <body>
@@ -67,28 +61,15 @@ https://templatemo.com/tm-506-tinker
     <div class="parallax-content baner-content" id="home">
         <div class="container">
             <div class="text-content">
-                <h2><em>PREDICTION MAP</em></h2>
-                <p>Using our collected data, our team has built an accurate machine learning model to predict network speeds around the BU campus!</p>
+                <h2>Aerial 5G Network Modeling Project</h2> <br>
+                <p>Sponsored by our client AT&T, our project is meant to learn more about the 5G network, which has been growing to surpass 4G LTE.</p>
                 <div class="primary-white-button">
-                    <a href="#" class="scroll-link" data-id="predict">Start Predicting</a>
+                    <a href="#" class="scroll-link" data-id="about">Read More</a>
                 </div>
-                
             </div>
         </div>
     </div>
 
-    <section id="predict">
-    </section>
-    <h1>Click anywhere on the map for predicted network speeds at that location!</h1>
-    <div id="map" class="center"></div>
-    <div>
-        <h1>Predictions: </h1>
-        <h1 id="location"></h1>
-    </div>
-    <script src="{{ url_for('static',filename='js/index.js')}}"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY&callback=initMap&v=weekly">
-    </script>
 
     <section id="about" class="page-section">
         <div class="container">
