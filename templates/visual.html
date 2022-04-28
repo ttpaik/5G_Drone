@@ -67,10 +67,10 @@ https://templatemo.com/tm-506-tinker
     <div class="parallax-content baner-content" id="home">
         <div class="container">
             <div class="text-content">
-                <h2><em>PREDICTION MAP</em></h2>
-                <p>Using our collected data, our team has built an accurate machine learning model to predict network speeds around the BU campus!</p>
+                <h2><em>VISUALIZATION</em></h2>
+                <p>After flying our drone and collecting network speed data around campus, here is the data we've gathered so far!</p>
                 <div class="primary-white-button">
-                    <a href="#" class="scroll-link" data-id="predict">Start Predictions</a>
+                    <a href="#" class="scroll-link" data-id="predict">Go to Visualization</a>
                 </div>
                 
             </div>
@@ -79,17 +79,10 @@ https://templatemo.com/tm-506-tinker
 
     <section id="predict">
     </section>
-    <h1>First, enter an altitude (feet) below (if none or invalid, ground level is assumed)</h1>
-    <form class="center">
-        <input id="alt" type="text" class="center" size="10" placeholder="Enter alt" onblur="getVal()">
-    </form>
-    <h1>Then, click anywhere on the map to predict network speeds at that location!</h1>
-    <br>
-    <div id="map" class="center"></div>
     <br>
     <script src="{{ url_for('static',filename='js/index.js')}}"></script>
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY&callback=initMap&v=weekly">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCz3HeQcRK3KNcXdllPYF3JcwM3RDvBoEk&callback=initMap&v=weekly">
     </script>
 
     <section id="about" class="page-section">

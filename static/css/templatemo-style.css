@@ -220,7 +220,7 @@ bootstrap.min.css:5
 }
 
 .baner-content .text-content h2 {
-	font-size: 36px;
+	font-size: 44px;
 	font-weight: 400;
 	color: #fff;
 }
@@ -238,7 +238,7 @@ bootstrap.min.css:5
 
 .baner-content .text-content p {
 	color: #fff;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 24px;
 	padding: 0px 25%;
 }
@@ -274,7 +274,7 @@ bootstrap.min.css:5
 #about .service-item h4 {
 	margin-bottom: 30px;
 	margin-top: 45px;
-	font-size: 17px;
+	font-size: 30px;
 	font-weight: 500;
 	color: #fff;
 	letter-spacing: 1px;
@@ -289,6 +289,7 @@ bootstrap.min.css:5
 #about .service-item p {
 	color: #fff;
 	margin-top: 30px;
+	font-size: 17px;
 }
 
 #about .service-item .primary-blue-button {
@@ -675,7 +676,7 @@ footer .logo-ft {
 
 footer .logo p {
 	font-weight: 300;
-	font-size: 12px;
+	font-size: 20px;
 	color: #fff;
 	margin-bottom: -10px;
 	letter-spacing: 0.5px;
@@ -696,7 +697,7 @@ footer .logo a:hover {
 
 footer .location h4 {
 	margin-top: 0px;
-	font-size: 13px;
+	font-size: 20px;
 	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;

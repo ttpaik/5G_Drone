@@ -12,14 +12,15 @@ def hello():
 
 @application.route("/visualization")
 def visualization():
-    return render_template("visualization.html")
+    return render_template("visual.html")
 
 @application.route("/pred", methods=['GET', 'POST'])
 def pred():
     if request.method == 'POST':
         lat = request.form['lat']
         long = request.form['long']
-        x_pred = np.array([[0, float(lat), float(long)]]).reshape(-1, 3)
+        alt = request.form['alt']
+        x_pred = np.array([[float(alt), float(lat), float(long)]]).reshape(-1, 3)
         y_pred = model.predict(x_pred)
         pred_text = 'Download speed (mbps): {0:.6f},  Upload speed (mbps): {1:.6f}'.format(y_pred[0][0],y_pred[0][1])
         res = {"pred": pred_text}
