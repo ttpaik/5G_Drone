@@ -12,30 +12,30 @@ function initMap() {
   });
   // Create the initial InfoWindow.
   let infoWindow = new google.maps.InfoWindow({
-    content: "Click the map to get Lat/Lng!",
+    content: "Click map for prediction at that latitude/longitude!",
     position: myLatlng,
   });
 
-  infoWindow.open(map);
+  //infoWindow.open(map);
 
   // Configure the click listener.
   map.addListener("click", (mapsMouseEvent) => {
 
     // Close the current InfoWindow.
     infoWindow.close();
-    
+
+    alt = getVal();
+    if (alt == '') alt = 0;
+
     // Send lat and long to python script for prediction
-    runPyScript([mapsMouseEvent.latLng.lat(), mapsMouseEvent.latLng.lng()])
-    
+    text = runPyScript([mapsMouseEvent.latLng.lat(), mapsMouseEvent.latLng.lng(), alt])
+
     // Create a new InfoWindow.
     infoWindow = new google.maps.InfoWindow({
       position: mapsMouseEvent.latLng,
+      content: text
     });
 
-    // console.log(mapsMouseEvent.latLng.lat())
-    infoWindow.setContent(
-      JSON.stringify(mapsMouseEvent.latLng.toJSON(), null, 2)
-    );
     infoWindow.open(map);
   });
 }
@@ -43,10 +43,17 @@ function initMap() {
 function runPyScript(inputs){
   var jqXHR = $.ajax({
       type: "POST",
+      async: false, 
       url: "/pred",
-      data: { lat: inputs[0], long: inputs[1] }
+      data: { lat: inputs[0], long: inputs[1], alt: inputs[2] }
   }).done(function(response) {
     text = response.pred
-    document.getElementById("location").innerHTML = text
+    //document.getElementById("location").innerHTML = text
   });
+  return text
+}
+
+function getVal() {
+  const val = document.querySelector('input').value;
+  return val;
 }
