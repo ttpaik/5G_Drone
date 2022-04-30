@@ -1,5 +1,17 @@
 # 5G Aerial Network Modeling
 
+## Installation
+
+### Machine Learning
+
+1. Retrieve Data from the Google Firebase Realtime Database.
+2. Convert the JSON file retrieved by executing the JSON_to_CSV.py file
+3. Running the Linear_Reg.py will show predicted network speed, error rates, and accuracy.
+
+### Mobile Application
+
+### Web Application
+
 ## Demo Video
 
 [![IMAGE](https://github.com/Charlieletscode/AtntBlueTeamApp/blob/master/Untitled.png)](https://youtu.be/IevLD48jODc)
