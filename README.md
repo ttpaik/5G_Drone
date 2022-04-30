@@ -56,11 +56,6 @@ python -m flask run
 
 The website will run locally, which can be opened by doing a CTRL+click on the link displayed in terminal.
 
-## Demo Video
-
-[![IMAGE](https://github.com/Charlieletscode/AtntBlueTeamApp/blob/master/Untitled.png)](https://youtu.be/IevLD48jODc)
-https://youtu.be/IevLD48jODc
-
 ## Reports
 
 User Manual:
