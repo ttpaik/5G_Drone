@@ -10,3 +10,14 @@ Get [Google api keys](https://console.cloud.google.com/apis/enableflow?apiid=map
 Get Ookla SDK keys and<br />
 val testConfigBgSpeed = "..."<br />
 val testConfigBgScan =  "..."<br />
+
+## Reports
+
+User Manual:
+https://docs.google.com/document/d/10OxWcPQJ5PZvt8QpeJO8PwluOU9d7x0bprcei2VUE00/edit?usp=sharing
+
+Final Testing Plan:
+https://docs.google.com/document/d/1DpbT3tlZBKZq-5ZEr4gFLf7z0U9lnp8UdbPhrpT1PvQ/edit?usp=sharing
+
+Final Testing Report: 
+https://docs.google.com/document/d/1U6Oqt0h8JxvkRdIgoyrsho2-cFChewnu4Vrh_MiR98Y/edit?usp=sharing
