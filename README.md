@@ -67,3 +67,15 @@ https://docs.google.com/document/d/1DpbT3tlZBKZq-5ZEr4gFLf7z0U9lnp8UdbPhrpT1PvQ/
 
 Final Testing Report: 
 https://docs.google.com/document/d/1U6Oqt0h8JxvkRdIgoyrsho2-cFChewnu4Vrh_MiR98Y/edit?usp=sharing
+
+2nd Testing Plan:
+https://docs.google.com/document/d/10XHgAKieV7f9gd0h5lpegG0_CPvrRAgZWy3_GcpdbT8/edit?usp=sharing
+
+2nd Testing Report:
+https://docs.google.com/document/d/1Sztna2GjsokEhIptMhGoasQHkQ-P9Zn0xQu1Vy14t00/edit?usp=sharing
+
+1st Testing Plan:
+https://docs.google.com/document/d/1AzwY8HpChmGq-rDp9nPJk7-rB3xb2wcgxwwlfttNAqc/edit?usp=sharing
+
+1st Testing Report:
+https://docs.google.com/document/d/15mbLI_dDfe6D71eZ-7Gb0zyYEhLqhP0Snz8vcuocSdc/edit?usp=sharing
