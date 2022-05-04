@@ -1,5 +1,8 @@
 # 5G Aerial Network Modeling
 
+## Hardware Report
+## Software Report
+
 ## Introduction
 
 Mobile network operators are in the process of building out their 5G networks to support an ever-growing range of applications. The impact of these emerging capabilities is wide ranging and will have major impacts on many aspects of AT&T’s business and infrastructure.  Using our Aerial 5G android application based off of the Ookla Speedtest SDK, we have collected 5G connection data and built a machine learning model that is predictive of 5G speeds in different locations and conditions.  For clarity, the collected data and predicted results are visualized using geolocation maps.  This allows users of the application to further examine 5G networks and predict connection speeds in urban environments.  The current machine learning model accounts for geographic location, altitude, and connection source location. It also predicts latency and upload/download speeds for these conditions.
