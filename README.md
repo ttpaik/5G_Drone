@@ -1,6 +1,6 @@
 # 5G Aerial Network Modeling
 
-## Hardware Report
+## [Hardware Report](https://github.com/ttpaik/5G_Drone/wiki/Hardware-Report#hardware-report-readme)
 ## Software Report
 
 ## Introduction
