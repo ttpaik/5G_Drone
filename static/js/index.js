@@ -1,14 +1,23 @@
+const bounds = {
+  north: 42.356918,
+  south: 42.343574,
+  west: -71.125084,
+  east: -71.090837,
+}
+
 function initMap() {
   const myLatlng = { lat: 42.349494, lng: -71.108135 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 16.5,
+    zoom: 15,
     disableDefaultUI: true,
-    center: myLatlng,
-    draggable: false, 
-    zoomControl: false, 
-    scrollwheel: false, 
+    center: myLatlng, 
+    zoomControl: true, 
+    scrollwheel: true, 
     disableDoubleClickZoom: true, 
-    gestureHandling: 'none'
+    restriction: {
+      latLngBounds: bounds,
+      strictBounds: true,
+    },
   });
   // Create the initial InfoWindow.
   let infoWindow = new google.maps.InfoWindow({
@@ -16,24 +25,22 @@ function initMap() {
     position: myLatlng,
   });
 
-  //infoWindow.open(map);
-
   // Configure the click listener.
   map.addListener("click", (mapsMouseEvent) => {
 
     // Close the current InfoWindow.
-    infoWindow.close();
+    //infoWindow.close();
 
     alt = getVal();
     if (alt == '') alt = 0;
 
     // Send lat and long to python script for prediction
-    text = runPyScript([mapsMouseEvent.latLng.lat(), mapsMouseEvent.latLng.lng(), alt])
+    pred = runPyScript([mapsMouseEvent.latLng.lat(), mapsMouseEvent.latLng.lng(), alt])
 
     // Create a new InfoWindow.
-    infoWindow = new google.maps.InfoWindow({
+    var infoWindow = new google.maps.InfoWindow({
       position: mapsMouseEvent.latLng,
-      content: text
+      content: pred,
     });
 
     infoWindow.open(map);
@@ -47,10 +54,9 @@ function runPyScript(inputs){
       url: "/pred",
       data: { lat: inputs[0], long: inputs[1], alt: inputs[2] }
   }).done(function(response) {
-    text = response.pred
-    //document.getElementById("location").innerHTML = text
+    pred = response.pred
   });
-  return text
+  return pred
 }
 
 function getVal() {
