@@ -40,8 +40,8 @@ class MainActivity : AppCompatActivity() {
 //        @kotlin.jvm.JvmField
 //        var flag: Boolean = false;
         // Use the key provided to you instead of the test key below
-        const val SPEEDTEST_SDK_API_KEY = "d4yshimc47kvoe7l"
-        const val SPEEDTEST_SDK_RESULT_KEY = "81su553x2no9c4g0"
+        const val SPEEDTEST_SDK_API_KEY = "!"
+        const val SPEEDTEST_SDK_RESULT_KEY = "!"
         var lastTestGuid: String? = null
         var pre = 0;
     }
