@@ -25,10 +25,9 @@ This Phone app uses the Android studio buildup with js, kotlin, gradle, and java
 To install this app you have to download it PLease follow the following steps
 
 First, Download android studio and the master branch.<br /><br />
-Second, get your own [Google api keys](https://console.cloud.google.com/apis/enableflow?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=09:99:E5:A3:47:98:40:10:17:0B:8F:3C:53:11:58:19:1C:62:AE:CA;com.example.myapplication&project=capable-code-313408&pli=1)<br /><br />
-Third, Get Ookla SDK keys [OOKLA SDK keys](https://account.speedtestcustom.com/login)<br /><br />
-Fourth, set up value of  ```val testConfigBgSpeed = "..."```<br /><br />
-Fifth, set up value of  ```val testConfigBgScan =  "..."```<br /><br />
+In the google_maps_api.xml file, replace the exclamation mark (!) symbols located on lines 23 with your [Google api keys](https://console.cloud.google.com/apis/enableflow?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=09:99:E5:A3:47:98:40:10:17:0B:8F:3C:53:11:58:19:1C:62:AE:CA;com.example.myapplication&project=capable-code-313408&pli=1)<br /><br />
+In the MainActivity.kt file, replace the exclamation mark (!) symbols located on lines 43, 44 with your [OOKLA SDK keys](https://account.speedtestcustom.com/login)<br /><br />
+In the MapsActivity.kt file, replace the exclamation mark (!) symbols located on lines 43, 44, 45 with your [OOKLA SDK configuration](https://account.speedtestcustom.com/login)<br /><br />
 Lastly, build up the app then the phone app should be functioning 
 
 ### Web Application
