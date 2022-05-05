@@ -41,9 +41,9 @@ import com.ookla.speedtest.sampleapp.MainActivity.Companion
  * well as how to pass in [TestHandler][com.ookla.speedtest.sdk.handler.TestHandler] to listen to progress updates and get the results
  */
 class TestActivity : AppCompatActivity() {
-    private val testConfigBgSpeed = "defaultTriggeredTest"
-    private val testConfigBgScan = "defaultSignalScan"
-    private val testConfigCITest = "test1"
+    private val testConfigBgSpeed = "!"
+    private val testConfigBgScan = "!"
+    private val testConfigCITest = "!"
     private lateinit var database: DatabaseReference
 
 
