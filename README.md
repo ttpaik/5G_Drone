@@ -29,7 +29,7 @@ Second, get your own [Google api keys](https://console.cloud.google.com/apis/ena
 Third, Get Ookla SDK keys <br /><br />
 Fourth, set up value of  ```val testConfigBgSpeed = "..."```<br /><br />
 Fifth, set up value of  ```val testConfigBgScan =  "..."```<br /><br />
-Build up the app then the phone app should be functioning 
+Lastly, build up the app then the phone app should be functioning 
 
 ### Web Application
 
